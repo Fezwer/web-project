@@ -1,0 +1,10 @@
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html {
+    background-image: url('C:/prog_dz/web-project/build/img/USSR_flag.png');
+    background-size: cover;
+  }
