@@ -13,12 +13,12 @@
     <!-- <h1>Gmod Coder</h1> -->
 
     <header>
-        <img class="rounded-image" src="img/fezwer_background.png" alt="fezwer_background" width="100%" height="auto">
+        <img class="rounded-image" src="img/fezwer_background.png" alt="fezwer_background" width="100%">
 
-        <h3 style="display: flex;align-items: center;justify-content: center">Этот сайт посвящен заметкам о
+        <h2 style="display: flex;align-items: center;justify-content: center">Этот сайт посвящен заметкам о
             программировании
-            в Garry's Mod.</h3>
-        <h3 style="display: flex;align-items: center;justify-content: center">По сути - личный блог с юмором.</h3>
+            в Garry's Mod.</h2>
+        <h2 style="display: flex;align-items: center;justify-content: center">По сути - личный блог с юмором.</h2>
         <div class="container">
             <img src="img/Gmod_logo.png" alt="gmod logo" width="128" height="128" style="margin-right: 10px;">
             <h3> Краткое описание игры:<br> <u>Garry's mod</u> — компьютерная игра, физическая <em>«песочница»</em>,
@@ -32,29 +32,56 @@
 
 
     <!-- Тут тоже с контейнером похимичить -->
-    <main style="margin-top: 50px;width: 80%;display: flex; margin-left: auto;">
-        <table bordercolor="white" border="1" width="100%">
+    <main style="margin-top: 50px;" class="container">
+        <table bordercolor="white" border="1" width="80%" style="margin-left: 10%;">
+            <caption>
+                <h3>Аддоны, созданные мною</h3>
+            </caption>
             <colgroup>
-                <col style="background-color: red;">    
+                <col style="background-color: rgba(21, 41, 120, 0.505);">
+                <col style="background-color: rgb(16, 107, 0);">
             </colgroup>
-            <caption>Примерная разметка страницы</caption>
             <tr>
-                <th> </th>
-                <th>2</th>
+                <th rowspan="4" style="width: 15%; height: 200px;">Созданы</th>
+                <th> Аддон выводящий в левом верхнем углу кол-во предметов собранных при фарме </th>
             </tr>
             <tr>
-                <th>3</th>
-                <th>4</th>
+                <th> Аддон, ренализующий псевдорандомную телепортацию </th>
+            </tr>
+            <tr>
+                <th> Аддон для обмена материалов в соотношении 2 к 1 </th>
+            </tr>
+            <tr>
+                <th> Backend часть времени(игровое время на сервере)</th>
+            </tr>
+            <tr>
+                <th rowspan="1" style="width: 15%;height: 50px;">В разработке</th>
+                <th style="background-color: brown;">Система обмена игровыми предметами</th>
             </tr>
         </table>
     </main>
+    
+    <form action="#" method="post" style="margin-top: 50px;">
+        Информация была для вас полезна?
+        <div>
+            <input type="radio" name="Yes_No"> Да
+        </div>
+        <div>
+            <input type="radio" name="Yes_No"> Нет
+        </div>
+        <div>
+            <textarea disabled placeholder="Свой ответ" name="text"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="Save_answers" value="Отправить">
+        </div>
+    </form>
 
     <!-- Дальше идея в том, что для каждой команды делаю разделение(хуки и т.д.) и пишу в таблицы
     пометки для них -->
 
     <footer style="margin-top: 50px;">
-        <a href="https://wiki.facepunch.com/gmod/" style="color:rgb(18, 219, 155)">Официальная Wiki по кодингу в
-            GMOD</a>
+        <a target="_blank" href="https://wiki.facepunch.com/gmod/" style="color:rgb(18, 219, 155)">Официальная Wiki по кодингу в GMOD</a>
     </footer>
 
 </body>
