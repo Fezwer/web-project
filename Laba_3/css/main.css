@@ -1,47 +1,80 @@
-html{
-    background-color: black;
-    color: white;
+html {
+  background:url('https://media.tenor.com/Q1wByYVX32oAAAAC/wide-nanami-jujutsu-kaisen.gif');
+  background-size:cover;
+  background-repeat:no-repeat;
+  color: white;
+
 }
 
-h1,h2{
-    text-align: center;
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+h1,
+p {
+  color: chartreuse;
 }
 
 table {
-    width: 80%;
-    margin-left: 10%;
-    border: 2px solid white;
-  }
-  
-  caption h3 {
-    text-align: center;
-  }
-  
-  colgroup col:nth-child(1) {
-    background-color: rgba(21, 41, 120, 0.505);
-  }
-  
-  colgroup col:nth-child(2) {
-    background-color: rgb(16, 107, 0);
-  }
-  
-  th[scope="row"] {
-    width: 15%;
-    height: 200px;
-  }
-  
-  th {
-    text-align: center;
-    border: 1px solid #fff;
-    height: 50px;
-  }
-  
-  th.red_tb {
-    background-color: red;
-  }
+  width: 80%;
+  margin-left: 10%;
+  border: 2px solid white;
+}
 
-  #special-text {
-    margin-top: 20px;
-    color: blue; /* Устанавливаем цвет текста в синий */
-    font-weight: bold; /* Делаем текст жирным */
-  }
+caption h3 {
+  text-align: center;
+}
+
+colgroup col:nth-child(1) {
+  background-color: rgba(21, 41, 120, 0.505);
+}
+
+colgroup col:nth-child(2) {
+  background-color: rgb(16, 107, 0);
+}
+
+th[scope="row"] {
+  width: 15%;
+  height: 200px;
+}
+
+th {
+  text-align: center;
+  border: 1px solid #fff;
+  height: 50px;
+}
+
+th.red_tb {
+  background-color: red;
+}
+
+#special-text {
+  margin-top: 20px;
+  color: blue;
+  font-weight: bold;
+}
+
+#gr-button {
+  background-color: aqua;
+  color: black;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+}
+
+a[href="https://wiki.facepunch.com/gmod/"] {
+  color: #007bff;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+a[href="https://wiki.facepunch.com/gmod/"]:hover {
+  text-decoration: underline;
+}
