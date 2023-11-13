@@ -1,0 +1,47 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+    border: 2px solid white;
+  }
+  
+  caption h3 {
+    text-align: center;
+  }
+  
+  colgroup col:nth-child(1) {
+    background-color: rgba(21, 41, 120, 0.505);
+  }
+  
+  colgroup col:nth-child(2) {
+    background-color: rgb(16, 107, 0);
+  }
+  
+  th[scope="row"] {
+    width: 15%;
+    height: 200px;
+  }
+  
+  th {
+    text-align: center;
+    border: 1px solid #fff;
+    height: 50px;
+  }
+  
+  th.red_tb {
+    background-color: red;
+  }
+
+  #special-text {
+    margin-top: 20px;
+    color: blue; /* Устанавливаем цвет текста в синий */
+    font-weight: bold; /* Делаем текст жирным */
+  }

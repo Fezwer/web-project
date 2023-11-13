@@ -13,6 +13,58 @@
     <link rel="short icon" href="img/logo.png" type="image/x-icon">
 
 </head>
+
+<body>
+    <h1>Лабораторная №1</h1>
+
+    <form action="login" method="post">
+        <fieldset>
+            <legend>Форма регистрации:</legend>
+            <label for="username">Логин:</label>
+            <input type="text" id="username" name="username">
+            <label for="userpassword">Пароль:</label>
+            <input type="password" id="userpassword" name="userpassword">
+            <input type="submit" value="Войти">
+        </fieldset>
+        <fieldset>
+            <legend>Дополнительные сведения:</legend>
+            <label for="useremail">Почта:</label>
+            <input type="email" id="useremail" name="useremail">
+            <label for="usertel">Телефон:</label>
+            <input type="tel" id="usertel" name="usertel">
+        </fieldset>
+    </form>
+
+    <table class="custom-table">
+        <caption>
+          <h3>Аддоны, созданные мною</h3>
+        </caption>
+        <colgroup>
+          <col class="col1">
+          <col class="col2">
+        </colgroup>
+        <tr>
+          <th rowspan="4">Созданы</th>
+          <th>Аддон выводящий в левом верхнем углу кол-во предметов собранных при фарме</th>
+        </tr>
+        <tr>
+          <th>Аддон, ренализующий псевдорандомную телепортацию</th>
+        </tr>
+        <tr>
+          <th>Аддон для обмена материалов в соотношении 2 к 1</th>
+        </tr>
+        <tr>
+          <th>Backend часть времени(игровое время на сервере)</th>
+        </tr>
+        <tr>
+          <th rowspan="1" style="height: 50px;">В разработке</th>
+          <th class="red_tb">Система обмена игровыми предметами</th>
+        </tr>
+      </table>
+    
+      <div id="special-text">Тут особый текст, круче него нет ничего.</div>
+
+</body>
     
 </html>
 <!-- Почитать подробнее про FrameWork -->
