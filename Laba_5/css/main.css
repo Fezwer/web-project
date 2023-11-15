@@ -1,0 +1,81 @@
+a[href="https://wiki.facepunch.com/gmod/"] {
+    color: #007bff;
+}
+
+a[href="https://wiki.facepunch.com/gmod/"]:hover {
+    color: brown;
+    font-weight: bold;
+}
+
+a.myLink:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a.myLink:visited {
+    color: purple;
+}
+
+a.myLink:hover {
+    color: red;
+    font-weight: bold;
+}
+
+a.myLink:active {
+    color: green;
+}
+
+p:first-child {
+    color: red;
+}
+
+p>i:first-child {
+    color: green;
+}
+
+p:first-child i {
+    font-size: larger;
+}
+
+ul li:first-child {
+    color: red;
+    font-weight: bold;
+}
+
+span,
+div em {
+    padding: 5px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.first span:nth-child(2n + 1),
+.second span:nth-child(2n + 1) {
+    background-color: lime;
+}
+
+h1::before {
+    content: url('../img/no_money.png');
+}
+
+a::after {
+    content: url('../img/no_money.png');
+}
+
+img.normal{
+   width: 100px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+}
+
+.custom-text {
+    font-size: 200%;
+}
