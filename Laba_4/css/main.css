@@ -44,21 +44,38 @@ header {
 }
 
 section {
-  width: calc(660px - 40px); 
-  margin-left: 20px;
+  width: calc(660px - 40px); /* Фактическая ширина: 620px */
+  float: left;  
 }
 
 aside {
-  width: 180px; 
+  width: calc(220px - 40px); /* Фактическая ширина: 180px */
   margin-left: 20px;
   margin-top: 15px;
-  margin-bottom: 15px;
-  background-color: rgb(23, 170, 45); 
-  color: white;
+  margin-bottom: 15px;  
+  background-color: #f0f0f0;
+  float: left;
 }
 
 footer {
   text-align: center;
   padding: 20px;
   border-top: 2px solid rgb(28, 43, 110);
+  clear: both;
 }
+
+nav {
+  padding: 10px; 
+  background-color: #e0e0e0; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex; 
+}
+
+nav li {
+  margin-right: 20px; 
+}
+
